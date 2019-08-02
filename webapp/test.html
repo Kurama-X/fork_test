@@ -1,0 +1,61 @@
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <link rel="stylesheet" type="text/css" href="test.css">
+<body>
+    <div class="main">
+        <div id="div0">
+            This is my 1st div element.
+        </div>
+        <div id="div1">
+            This is my 2nd div element.
+        </div>
+        <div id="div2">
+            This is my 3rd div element.
+        </div>
+        <div id="div3">
+            This is my 4th div element.
+        </div>
+        <div id="div4">
+            This is my 5th div element.
+        </div>
+        <div id="div5">
+            This is my 6th div element.
+        </div>
+        <div id="div6">
+            This is my 7th div element.
+        </div>
+        <div id="div7">
+            This is my 8th div element.
+        </div>
+    </div>
+    <input type="text" value="" onClick="myFunction();" id="textbox1">
+
+    <button id="countdown-number" onclick="startCountDown();">Show Time </button>
+
+
+    <h1> DATE TIME PICKER</h1>
+
+    Select a day : <input type="date" id="selectedDate">
+    <p> Click the button to select the date field</p>
+
+    <h1>Calling The same JS Function From Multiple Buttons</h1>
+
+    <button type="button" onclick="openForm(this)" id="1">Button1</button>
+    <button type="button" onclick="openForm(this)" id="2">Button2</button>
+    <button type="button" onclick="openForm(this)" id="3">Button3</button>
+
+     <h1>How to Create and Save text file in JavaScript</h1>
+
+     <button type="button" id="yesButton" value="Yes" onclick="saveYesInputDatataToFile();">Yes</button>
+     <button type="button" id="noButton" value="No" onclick="saveNoInputDataToile();">No</button>
+
+     <h1>Horizontal Bar Chart</h1>
+
+
+     <canvas id="myChart"></canvas>
+
+
+    <script src="test.js"></script>
+    <script src="FileSaver.js"></script>
+</body>
+</head>

@@ -1,0 +1,15 @@
+/* li {
+    display: none
+  }
+  
+  li:nth-last-child(-n+3) {
+    display: list-item;
+  }
+  
+  .main div {
+    display: none;
+  }
+  
+  .main div:nth-last-child(-n+3) {
+    display: block;
+  } */
